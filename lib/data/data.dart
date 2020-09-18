@@ -2,19 +2,26 @@ import 'package:flutter/material.dart';
 import 'package:netflix_ui_flutter/data/constants/constant.dart';
 import 'package:netflix_ui_flutter/models/models.dart';
 
-final Movie springContent = Movie(
-  name: "Spring",
-  imageUrl: AssetConstants.springTitle,
-  videoUrl: AssetConstants.springVideoSource,
+final Movie tosContent = Movie(
+  name: "Tears Of Steel",
+  imageUrl: AssetConstants.tosposter,
+  titleImageUrl: AssetConstants.tosTitle,
+  videoUrl: AssetConstants.tosVideoSource,
   description:
-      'Spring is the story of a shepherd girl and her dog, who face ancient spirits in order to continue the cycle of life.',
+      'The short begins with a view of a rocket lifting off. Thom (Vanja Rukavina) and Celia (Denise Rebergen) are standing on a bridge, arguing. Thom says both of them need to follow their passions; his is to be an astronaut and hers is the field of robotics. Celia, however, correctly concludes that Thom is scared of her robotic hand and breaks up with him. ',
 );
 
 final List<Movie> previews = const [
   Movie(
+    name: "Spring",
+    imageUrl: AssetConstants.spring,
+    color: Colors.amberAccent,
+    titleImageUrl: AssetConstants.springTitle,
+  ),
+  Movie(
     name: 'Hubie Halloween',
     imageUrl: AssetConstants.hubieHalloween,
-    color: Colors.yellow,
+    color: Colors.deepPurple,
     titleImageUrl: AssetConstants.hubieHalloweenTitle,
   ),
   Movie(
@@ -42,15 +49,15 @@ final List<Movie> previews = const [
     titleImageUrl: AssetConstants.luciferTitle,
   ),
   Movie(
-    name: '13 Reasone Why',
-    imageUrl: AssetConstants.thirteenReasonsWhy,
-    color: Colors.deepOrange,
-    titleImageUrl: AssetConstants.thirteenReasonsWhyTitle,
+    name: "Spring",
+    imageUrl: AssetConstants.spring,
+    color: Colors.amberAccent,
+    titleImageUrl: AssetConstants.springTitle,
   ),
   Movie(
     name: 'Hubie Halloween',
     imageUrl: AssetConstants.hubieHalloween,
-    color: Colors.yellow,
+    color: Colors.deepPurple,
     titleImageUrl: AssetConstants.hubieHalloweenTitle,
   ),
   Movie(
@@ -76,12 +83,6 @@ final List<Movie> previews = const [
     imageUrl: AssetConstants.lucifer,
     color: Colors.red,
     titleImageUrl: AssetConstants.luciferTitle,
-  ),
-  Movie(
-    name: '13 Reasone Why',
-    imageUrl: AssetConstants.thirteenReasonsWhy,
-    color: Colors.deepOrange,
-    titleImageUrl: AssetConstants.thirteenReasonsWhyTitle,
   ),
 ];
 

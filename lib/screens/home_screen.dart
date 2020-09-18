@@ -52,7 +52,9 @@ class _HomeScreenState extends State<HomeScreen> {
         controller: _scrollController,
         slivers: [
           SliverToBoxAdapter(
-            child: ContentHeader(featuredContent: springContent),
+            child: ContentHeader(
+              featuredContent: tosContent,
+            ),
           ),
           SliverPadding(
             padding: const EdgeInsets.only(top: 20.0),
